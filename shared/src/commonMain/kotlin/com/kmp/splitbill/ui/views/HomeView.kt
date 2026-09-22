@@ -6,6 +6,9 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowCircleDown
+import androidx.compose.material.icons.filled.Calculate
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -83,7 +86,7 @@ fun ContentHomeView(modifier: Modifier) {
             }
             // Text(selectedTip.toString())
             IconButton(onClick = { }) {
-//                Icon(imageVector = Icons)
+                Icon(imageVector = Icons.Default.ArrowCircleDown, contentDescription = "Down - Abajo")
             }
         }
     }
