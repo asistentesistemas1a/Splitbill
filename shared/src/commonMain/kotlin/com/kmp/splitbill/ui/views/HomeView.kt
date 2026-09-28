@@ -87,7 +87,7 @@ fun ContentHomeView(modifier: Modifier) {
 
 
             Row (
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                horizontalArrangement = Arrangement.spacedBy(4.dp)
             ) {
                 options.forEach { option ->
                     FilterChip(
